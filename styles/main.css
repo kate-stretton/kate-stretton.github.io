@@ -1,48 +1,45 @@
-body {
-    background-color: #d3e0e7;
+* {
     font-family: 'Courier New', Courier, monospace;
     color: #36454F;
-    margin: 50px 50px 50px 50px;
+    margin: 20px 10px 30px 10px;
+}
+
+body {
+    background-color: #f2ede4;
+}
+
+.hero-image {
+  background-image: url(../images/drift.png);
+  background-size: cover;
+  background-position: center;
+  width: 100wh;
+  height: 80vh;
+  display: flex;
+  border-radius: 5px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px 0px 20px;
+  font-size: 20px;
 }
 
 header {
   padding: 15px 0px 15px 0px;
 }
 
-ul {
-  list-style-type: none;
-  float: right;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
 }
 
-li {
-  float: right;
-}
-
-li a {
-  display: block;
-  color:#36454F;
-  padding: 15px 15px;
-}
-
-li a:hover {
-  border-style: solid;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  padding: 20px 0px 20px 0px;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
+.grid-container > div {
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
 footer {
-  background-color: #d3e0e7;
-  padding: 15px 0px 15px 0px; 
+  text-align: center;
 }
-
