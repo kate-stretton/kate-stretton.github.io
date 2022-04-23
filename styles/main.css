@@ -43,3 +43,14 @@ header {
 footer {
   text-align: center;
 }
+
+pre {
+  background-color: #FAF9F6;
+  border: 1px solid ;
+  display: block;
+  width: 300px;
+}
+
+.blog-text {
+  width: 700px;
+}
