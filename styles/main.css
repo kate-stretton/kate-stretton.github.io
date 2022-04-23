@@ -41,7 +41,7 @@ header {
 }
 
 footer {
-  text-align: center;
+  position: absolute;
 }
 
 pre {
@@ -49,8 +49,4 @@ pre {
   border: 1px solid ;
   display: block;
   width: 300px;
-}
-
-.blog-text {
-  width: 700px;
 }
