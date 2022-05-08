@@ -50,3 +50,12 @@ pre {
   display: block;
   width: 300px;
 }
+
+.blog-text {
+  width: 50%;
+}
+
+.responsive {
+ width: 30%;
+height: auto;
+}
